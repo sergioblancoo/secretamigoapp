@@ -664,6 +664,14 @@ body.app_version .header_style_01.fixed-menu{
     padding: 16em 0 13em;
 }
 
+.privacy-section {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding: 12em 1em 4em;
+    background-color: #1C1C1F;
+}
+
 .first-section h2 {
     color: #ffffff;
     font-size: 68px;
@@ -675,6 +683,28 @@ body.app_version .header_style_01.fixed-menu{
     position: relative;
 }
 
+.privacy-section h2 {
+    color: #ffffff;
+    font-size: 68px;
+    font-weight: 600;
+    text-transform: capitalize;
+    display: block;
+    margin: 0;
+    padding: 0 0 30px;
+    position: relative;
+}
+
+.privacy-section h3 {
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 600;
+    text-transform: capitalize;
+    display: block;
+    margin: 0;
+    padding: 30px 0 30px;
+    position: relative;
+}
+
 .first-section .lead {
     font-size: 21px;
     font-weight: 300;
@@ -682,6 +712,24 @@ body.app_version .header_style_01.fixed-menu{
     margin: 0;
     line-height: inherit;
     color: #ffffff;
+}
+
+.privacy-section .lead {
+    font-size: 21px;
+    font-weight: 300;
+    padding: 0 0 40px;
+    margin: 0;
+    line-height: inherit;
+    color: #CCCCCC;
+}
+
+.privacy-section a {
+    font-size: 21px;
+    font-weight: 300;
+    padding: 0 0 40px;
+    margin: 0;
+    line-height: inherit;
+    color: #007AFE;
 }
 
 .macbookright {
